@@ -28,11 +28,11 @@ public class TC_05_getReviewTab extends testBase
             shopPage.getArrivals();
             shopPage.ArrivalImageCheck();
             shopPage.Reviewtab();
-            getScreenShot("TC05_Success");
+            getScreenShot("TC_05_getReviewTab_Success");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            getScreenShot("TC05_Failure");
+            getScreenShot("TC_05_getReviewTab_Failure");
         }
     }
 

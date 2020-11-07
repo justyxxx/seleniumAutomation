@@ -28,11 +28,11 @@ public class TC_04_CheckDescriptiontab extends testBase
             shopPage.getArrivals();
             shopPage.ArrivalImageCheck();
             shopPage.descriptiontab();
-            getScreenShot("TC04_Success");
+            getScreenShot("TC_04_CheckDescriptiontab_Success");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            getScreenShot("TC04_Failure");
+            getScreenShot("TC_04_CheckDescriptiontab_Failure");
         }
     }
 

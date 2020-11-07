@@ -27,11 +27,11 @@ public class TC_03_ArrivalImageCheck extends testBase
             shopPage.clickOnShopAndopenHome();
             shopPage.getArrivals();
             shopPage.ArrivalImageCheck();
-            getScreenShot("TC03_Success");
+            getScreenShot("TC_03_ArrivalImageCheck_Success");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            getScreenShot("TC03_Failure");
+            getScreenShot("TC_03_ArrivalImageCheck_Failure");
         }
     }
 

@@ -29,7 +29,7 @@ public class TC_01_clickOnShopAndopenHome extends testBase
             uiActionShopPage shopPage = new uiActionShopPage(driver);
             shopPage.clickOnShopAndopenHome();
             shopPage.getSliders();
-            getScreenShot("TC01_Success");
+            getScreenShot("clickOnShopAndopenHome_Success");
         }
         catch (Exception e)
         {

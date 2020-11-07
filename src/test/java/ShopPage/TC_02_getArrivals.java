@@ -29,11 +29,11 @@ public class TC_02_getArrivals extends testBase
             uiActionShopPage shopPage = new uiActionShopPage(driver);
             shopPage.clickOnShopAndopenHome();
             shopPage.getArrivals();
-            getScreenShot("TC02_Success");
+            getScreenShot("TC_02_getArrivals_Success");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            getScreenShot("TC02_Failure");
+            getScreenShot("TC_02_getArrivals_Failure");
         }
     }
 
