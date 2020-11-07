@@ -1,0 +1,8 @@
+2020-11-07 21:32:54 INFO  testBase:19 -  -------------------  EXECUTION STARTED -------------------------------
+2020-11-07 21:32:54 INFO  testBase:20 - 1. Open the browser : Opened in chrome
+2020-11-07 21:32:54 INFO  testBase:21 - 2. Enter the URL http://practice.automationtesting.in 
+2020-11-07 21:32:54 INFO  testBase:28 - 3. Empty symbols into form login and password
+2020-11-07 21:33:00 INFO  uiMyAccount:53 - 3. Click on MyAccount Menu - Passed
+2020-11-07 21:33:00 INFO  uiMyAccount:56 - 3. check that have passed successfullyLogin
+2020-11-07 21:33:06 INFO  testBase:33 - 4. Failed logged into your account: have Error: Username is required.
+2020-11-07 21:33:06 INFO  testBase:47 - ---------------------EXECUTION ENDED -------------------------------------
